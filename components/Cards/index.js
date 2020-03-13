@@ -56,24 +56,29 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
         cards.append(CreateCard(item))
     })
 })
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
 .then(response => {
     console.log(response.data.articles.bootstrap)
     response.data.articles.bootstrap.forEach( item => {
             cards.append(CreateCard(item))
     })    
 })
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
 .then(response => {
     console.log(response.data.articles.technology)
     response.data.articles.technology.forEach( item => {
         cards.append(CreateCard(item))
     })
+   // return cards
 })
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
 .then(response => {
     console.log(response.data.articles.jquery)
     response.data.articles.jquery.forEach(item => {
         cards.append(CreateCard(item))
     })
 })
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
 .then(response => {
     response.data.articles.node.forEach(item => {
         cards.append(CreateCard(item))
