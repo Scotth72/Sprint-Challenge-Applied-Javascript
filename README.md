@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+    Is stands for Document Object Model, that is a object representation of the elements of the HTML on the webpage.
 
 2. What is an event?
+    Events are the way the users interact with the page.
 
 3. What is an event listener?
+    Event listners are chosen with specific elements and create a callback when something occurs.
 
 4. Why would we convert a NodeList into an Array?
+    'QuerySelectorAll' method returns an array-like object that is called anode list. They cannot be used with array methods and have to be changed.
 
 5. What is a component?
+Components are made of HTML CSS OR JavaScript and is put together and reused in a website. 
 
 ### Git Set up
 
